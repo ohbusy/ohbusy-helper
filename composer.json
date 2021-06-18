@@ -1,0 +1,38 @@
+{
+    "name": "ohbusy/ohbusy-helper",
+    "homepage": "https://helper.ohbusy.com/",
+    "description": "The Ohbusy Helper Package",
+    "keywords": [
+        "ohbusy",
+        "ohbusy-helper"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "support": {
+        "source": "https://github.com/ohbusy/ohbusy-helper",
+        "issues": "https://github.com/ohbusy/ohbusy-helper/issues"
+    },
+    "authors": [
+        {
+            "name": "Ohbusy",
+            "email": "ohbusy@163.com",
+            "homepage": "https://www.ohbusy.com",
+            "role": "Developer"
+        },
+        {
+            "name": "肖康",
+            "email": "alasbusy@88.com",
+            "homepage": "https://www.alasbusy.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ohbusy\\": "src"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    }
+}
